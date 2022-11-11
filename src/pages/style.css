@@ -1,0 +1,21 @@
+.section {
+  background: rgb(25, 25, 25);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section > * {
+  color: #fff;
+}
+
+.section__title {
+  margin: 0;
+  text-align: center;
+}
+.section__about{
+  width: 80%;
+  margin-inline: auto;
+}
